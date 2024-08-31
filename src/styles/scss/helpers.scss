@@ -1,0 +1,304 @@
+@import 'breakpoint';
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.margin-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.max-width1920 {
+    max-width: 1920px;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.static {
+    position: static;
+}
+
+.space-pre-line {
+    white-space: pre-line;
+}
+
+.space-normal {
+    white-space: normal;
+}
+
+@media only screen and (min-width: $breakpoints-sm) {
+    .sm-container {
+        width: 100%;
+        max-width: 688px;
+        margin: 0 auto;
+    }
+
+    .sm-margin-center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .sm-vh100 {
+        height: 100vh;
+    }
+
+    .sm-w100 {
+        width: 100%;
+    }
+
+    .sm-h100 {
+        height: 100%;
+    }
+
+    .sm-w50 {
+        width: 50%;
+    }
+
+    .sm-max-width1920 {
+        max-width: 1920px;
+    }
+
+    .sm-relative {
+        position: relative;
+    }
+
+    .sm-fixed {
+        position: fixed;
+    }
+
+    .sm-absolute {
+        position: absolute;
+    }
+
+    .sm-sticky {
+        position: sticky;
+    }
+
+    .sm-static {
+        position: static;
+    }
+
+    .sm-space-pre-line {
+        white-space: pre-line;
+    }
+
+    .sm-space-normal {
+        white-space: normal;
+    }
+}
+
+@media only screen and (min-width: $breakpoints-md) {
+    .md-container {
+        width: 100%;
+        max-width: 928px;
+        margin: 0 auto;
+    }
+
+    .md-margin-center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .md-vh100 {
+        height: 100vh;
+    }
+
+    .md-w100 {
+        width: 100%;
+    }
+
+    .md-h100 {
+        height: 100%;
+    }
+
+    .md-w50 {
+        width: 50%;
+    }
+
+    .md-max-width1920 {
+        max-width: 1920px;
+    }
+
+    .md-relative {
+        position: relative;
+    }
+
+    .md-fixed {
+        position: fixed;
+    }
+
+    .md-absolute {
+        position: absolute;
+    }
+
+    .md-sticky {
+        position: sticky;
+    }
+
+    .md-static {
+        position: static;
+    }
+
+    .md-space-pre-line {
+        white-space: pre-line;
+    }
+
+    .md-space-normal {
+        white-space: normal;
+    }
+}
+
+@media only screen and (min-width: $breakpoints-lg) {
+    .lg-container {
+        width: 100%;
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+
+    .lg-margin-center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .lg-vh100 {
+        height: 100vh;
+    }
+
+    .lg-w100 {
+        width: 100%;
+    }
+
+    .lg-h100 {
+        height: 100%;
+    }
+
+    .lg-w50 {
+        width: 50%;
+    }
+
+    .lg-max-width1920 {
+        max-width: 1920px;
+    }
+
+    .lg-relative {
+        position: relative;
+    }
+
+    .lg-fixed {
+        position: fixed;
+    }
+
+    .lg-absolute {
+        position: absolute;
+    }
+
+    .lg-sticky {
+        position: sticky;
+    }
+
+    .lg-static {
+        position: static;
+    }
+
+    .lg-space-pre-line {
+        white-space: pre-line;
+    }
+
+    .lg-space-normal {
+        white-space: normal;
+    }
+}
+
+@media only screen and (min-width: $breakpoints-xl) {
+    .xl-container {
+        width: 100%;
+        max-width: 1580px;
+        margin: 0 auto;
+    }
+
+    .xl-margin-center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .xl-vh100 {
+        height: 100vh;
+    }
+
+    .xl-w100 {
+        width: 100%;
+    }
+
+    .xl-h100 {
+        height: 100%;
+    }
+
+    .xl-w50 {
+        width: 50%;
+    }
+
+    .xl-max-width1920 {
+        max-width: 1920px;
+    }
+
+    .xl-relative {
+        position: relative;
+    }
+
+    .xl-fixed {
+        position: fixed;
+    }
+
+    .xl-absolute {
+        position: absolute;
+    }
+
+    .xl-sticky {
+        position: sticky;
+    }
+
+    .xl-static {
+        position: static;
+    }
+
+    .xl-space-pre-line {
+        white-space: pre-line;
+    }
+
+    .xl-space-normal {
+        white-space: normal;
+    }
+}
