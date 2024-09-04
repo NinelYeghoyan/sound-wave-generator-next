@@ -2,8 +2,6 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
 const Main = dynamic(() => import('src/layout/Main'), { ssr: false });
-const Header = dynamic(() => import('src/layout/Header'), { ssr: false });
-const Footer = dynamic(() => import('src/layout/Footer'), { ssr: false });
 
 const Home = () => {
     return (
@@ -92,11 +90,7 @@ const Home = () => {
                 </style>
             </Head>
 
-            <Header />
-
             <Main />
-
-            <Footer />
         </>
     );
 };

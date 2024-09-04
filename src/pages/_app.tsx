@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 import { Reset } from 'styled-reset';
 
+import Layout from '@layout/index';
 import { Montserrat } from '@next/font/google';
 import GlobalStyles from '@styles/theme/global.styled';
 import theme from '@styles/theme/theme';
@@ -26,9 +27,9 @@ const App = ({ Component, pageProps }: AppProps) => {
             <Reset />
             <GlobalStyles />
 
-            <div className={`${montserrat.className} SG-layout`}>
+            <Layout className={montserrat.className}>
                 <Component {...pageProps} />
-            </div>
+            </Layout>
         </ThemeProvider>
     );
 };
